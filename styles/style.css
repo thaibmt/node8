@@ -1,0 +1,44 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+.nav-item {
+    padding-left: 10px;
+}
+
+.carousel img {
+    height: 100vh;
+}
+
+.about {
+    padding: 30px;
+    background-color: aqua;
+}
+
+.images {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.border:hover {
+    transform: scale(1.1);
+}
+
+.form {
+    padding: 40px;
+    width: 100%;
+}
+
+@media all and (max-width:768px) {
+    .images {
+        padding: 20%;
+    }
+
+    br {
+        display: none;
+    }
+}
